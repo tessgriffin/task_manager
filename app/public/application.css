@@ -38,6 +38,8 @@ textarea {
   background-color: #F2DFCA;
   margin-top: 100px;
   text-align: center;
+  margin-bottom: 150px;
+  padding-bottom: 30px;
 }
 
 .btn {
@@ -110,6 +112,10 @@ Navbar
 .task_title {
   padding: 10px;
   text-align: left;
+}
+
+.task_title .btn {
+  margin: 15px;
 }
 
 /*---------------------- 

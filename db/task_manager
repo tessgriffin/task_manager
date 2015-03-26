@@ -1,12 +1,15 @@
 ---
 tasks:
-- id: 1
-  title: Some Stuff
-  description: Hello Stuff
 - id: 2
   title: Make Cookies
   description: Cookie monster wants some cookies
 - id: 3
   title: Taxes
   description: Get that shit done
-total: 3
+- id: 4
+  title: Walk Dog
+  description: He has lots of energy
+- id: 5
+  title: Welcome Students
+  description: Hello Students
+total: 5
