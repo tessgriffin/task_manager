@@ -1,15 +1,9 @@
 ---
 tasks:
+- id: 1
+  title: Welcome 1503
+  description: Hello there 1503
 - id: 2
-  title: Make Cookies
-  description: Cookie monster wants some cookies
-- id: 3
-  title: Taxes
-  description: Get that shit done
-- id: 4
   title: Walk Dog
-  description: He has lots of energy
-- id: 5
-  title: Welcome Students
-  description: Hello Students
-total: 5
+  description: He has a lot of energy
+total: 2

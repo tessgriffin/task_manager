@@ -44,6 +44,7 @@ class TaskManager
   def self.delete(id)
     database.transaction do |db|
       db['tasks'].delete_if { |task| task["id"] == id }
+      db['total'] -= 1
     end
   end
 end
