@@ -1,7 +1,7 @@
 <h1>All Tasks</h1>
 
 <% @tasks.each do |task| %>
-  <h3><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
+  <div class="task_title"><h2><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h2></div>
 <% end %>
 
 <a href="/">Back to Dashboard</a>
