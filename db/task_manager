@@ -3,7 +3,10 @@ tasks:
 - id: 1
   title: Welcome 1503
   description: Hello there 1503
-- id: 2
-  title: Walk Dog
-  description: He has a lot of energy
-total: 2
+- id: 3
+  title: Go to Class
+  description: Hello
+- id: 4
+  title: Get Groceries
+  description: Bread
+total: 4
