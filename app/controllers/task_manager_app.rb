@@ -1,9 +1,4 @@
-require 'models/task_manager'
-
 class TaskManagerApp < Sinatra::Base
-  set :method_override, true
-  set :root, File.join(File.dirname(__FILE__), '..')
-  set :views, Proc.new { File.join(root, "views") } 
 
   get '/' do
     erb :dashboard
@@ -41,5 +36,9 @@ class TaskManagerApp < Sinatra::Base
   delete '/tasks/:id' do |id|
     TaskManager.delete(id.to_i)
     redirect '/tasks'
+  end
+
+  not_found do
+    erb :error
   end
 end
