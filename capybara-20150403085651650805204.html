@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/application.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+  <title>Task Manager</title>
+</head>
+<body>
+  <div class="nav">
+    <ul>
+      <li><a href="/tasks/new">New Task</a></li>
+      <li><a href="/tasks">Task Index</a></li>
+      <li><a href="/">Home</a></li>
+    </ul>
+  </div>
+  <div class="container">
+    <form action="/tasks/546" method="post">
+  <h1>Edit Task</h1>
+  <input type="hidden" name="_method" value="PUT" />
+  <input type='text' name='task[title]' value="Hello"/><br/>
+  <textarea name='task[description]'>World</textarea><br/>
+  <input class="btn" type='submit' value="submit"/>
+</form>
+  </div>
+  <footer>
+      <a href="https://github.com/tessgriffin/task_manager"><p>Tess Griffin | Project on Github</p></a>
+  </footer>
+</body>
+</html>
